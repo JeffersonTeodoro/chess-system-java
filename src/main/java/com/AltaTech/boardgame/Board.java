@@ -1,5 +1,7 @@
 package com.AltaTech.boardgame;
 
+import com.AltaTech.chess.ChessPiece;
+
 public class Board {
 
     private int rows;
