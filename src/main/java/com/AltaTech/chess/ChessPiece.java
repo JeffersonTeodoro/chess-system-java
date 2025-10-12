@@ -3,7 +3,7 @@ package com.AltaTech.chess;
 import com.AltaTech.boardgame.Board;
 import com.AltaTech.boardgame.Piece;
 
-public class ChessPiece extends Piece {
+public abstract class ChessPiece extends Piece {
 
     private Color color;
 
