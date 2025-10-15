@@ -33,33 +33,38 @@ O sistema foi construído com base em uma arquitetura limpa e orientada a objeto
 
 ## 🧠 Estrutura do Projeto
 
-chess-system-java/
-├── src/
-│ ├── application/
-│ │ └── Program.java # Classe principal do jogo
-│ ├── board/
-│ │ ├── Board.java # Representa o tabuleiro
-│ │ ├── Piece.java # Classe base das peças
-│ │ └── Position.java # Coordenadas do tabuleiro
-│ ├── chess/
-│ │ ├── ChessMatch.java # Lógica principal do jogo
-│ │ ├── ChessPiece.java # Classe das peças de xadrez
-│ │ ├── Color.java # Enum de cores (BRANCA, PRETA)
-│ │ └── pieces/ # Pacote com as peças específicas
-│ │ ├── King.java
-│ │ ├── Queen.java
-│ │ ├── Rook.java
-│ │ ├── Bishop.java
-│ │ ├── Knight.java
-│ │ └── Pawn.java
-│ └── exceptions/
-│ └── ChessException.java # Tratamento de erros personalizados
-└── pom.xml
-
-
----
+````
 
 ## ⚙️ Tecnologias Utilizadas
+📦 chess-system-java
+├── 📂 src
+│   ├── 📂 application
+│   │   └── 🧠 Program.java                # Classe principal do jogo
+│   │
+│   ├── 📂 board
+│   │   ├── ♟️ Board.java                 # Representa o tabuleiro
+│   │   ├── 🔹 Piece.java                 # Classe base das peças
+│   │   └── 📍 Position.java              # Coordenadas do tabuleiro
+│   │
+│   ├── 📂 chess
+│   │   ├── 🎯 ChessMatch.java            # Lógica principal do jogo
+│   │   ├── 🧩 ChessPiece.java            # Classe das peças de xadrez
+│   │   ├── ⚪ Color.java                  # Enum de cores (BRANCA, PRETA)
+│   │   │
+│   │   └── 📂 pieces                     # Pacote com as peças específicas
+│   │       ├── 👑 King.java
+│   │       ├── 👸 Queen.java
+│   │       ├── 🏰 Rook.java
+│   │       ├── ⛪ Bishop.java
+│   │       ├── 🐴 Knight.java
+│   │       └── ⚔️ Pawn.java
+│   │
+│   └── 📂 exceptions
+│       └── 🚫 ChessException.java        # Tratamento de erros personalizados
+│
+└── 📜 pom.xml                            # Configuração do Maven
+
+
 
 - ☕ **Java 17+**
 - 🧱 **Maven** (gerenciador de dependências)
